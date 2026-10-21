@@ -1,0 +1,31 @@
+{
+  "name": "cognetix-blog-server",
+  "version": "1.0.0",
+  "description": "RESTful API Backend for Blog Management System - Cognetix Internship",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node utils/seed.js",
+    "test": "node tests/api.test.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "blog",
+    "rest-api"
+  ],
+  "author": "Tejaswini-2006",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}

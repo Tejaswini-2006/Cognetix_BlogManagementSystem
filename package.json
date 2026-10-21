@@ -1,0 +1,25 @@
+{
+  "name": "cognetix-blog-management-system",
+  "version": "1.0.0",
+  "description": "Full Stack Blog Management System - Cognetix Technology Internship Task 4",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test:api": "npm --prefix server test",
+    "build:client": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "cognetix",
+    "blog-management-system",
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Tejaswini-2006",
+  "license": "ISC"
+}
